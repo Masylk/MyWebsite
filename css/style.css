@@ -1,0 +1,73 @@
+* {
+  user-select : none;
+}
+
+body {
+  overflow : hidden;
+}
+
+#gameContainer {
+  position : absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0%;
+  left: 0%;
+}
+
+#circleContainer{
+position: absolute;
+width: 567px;
+height: 560px;
+top: 15%;
+left: 50%;
+animation: myframes 10s linear infinite;
+}
+
+#avatar {
+  position : absolute;
+  width : 221px;
+  height : 221px;
+  left: 0%;
+  top: 1%;
+  z-index: 1;
+  border-radius: 50%;
+  background-image: url('../Assets/Images/Maxime.jpg');
+  background-color: rgba(217, 31, 24, 0.83);
+
+}
+
+@keyframes myframes {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#cv {
+
+}
+
+#portfolio {
+}
+
+#game {
+
+}
+
+#description {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 30%;
+  height: 100%;
+  background-color: rgb(139, 96, 14);
+}
+
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
